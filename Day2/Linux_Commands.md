@@ -42,6 +42,28 @@
 
 **ps aux | grep ping -**  print ping process from running process
 
+**useradd - m {user}** - Command use to create user and directory 'abc'
+
+**passwd abc** - set/change password for abc user
+
+**su {user}** - Switch user abc
+
+**groupadd devops** - Create Group
+
+**gpassd -a abc devops** - adding 'abc' user to 'devops' group
+
+**sudo usermod -aG docker Ubuntu -** Adding Ubuntu user to docker group
+
+**sudo chown abc.txt**  - Transferring ownership of 'abc.txt' file to another user 'tokyo'
+
+**systemctl -** status is a Linux command used to check the status of services and system components managed by systemd.
+
+(e.g. systemctl status nginx )
+
+
+
+
+
 
 
 &#x20;
